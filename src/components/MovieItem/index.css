@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.image {
+  border-radius: 10px;
+  width: 55px;
+  height: 55px;
+}
+.movie-container {
+  background-color: #ffffff;
+  padding: 20px;
+}
+@media (min-width: 500px) {
+  .image {
+    width: 111px;
+    height: 70px;
+  }
+}
+@media (min-width: 800px) {
+  .image {
+    width: 180px;
+    height: 130px;
+  }
+}
+@media (min-width: 1200px) {
+  .image {
+    width: 300px;
+    height: 250px;
+  }
+}
+.icon {
+  font-size: 20px;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  text-align: right;
+  padding: 10px;
+}

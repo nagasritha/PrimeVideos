@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.prime-container {
+  background-color: black;
+  min-height: 100vh;
+  margin: 0px;
+}
+.prime-image {
+  width: 100vw;
+  height: 40vh;
+}
+.carousel-container {
+  color: white;
+  padding: 24px;
+}
+.align-center {
+  text-align: center;
+}
